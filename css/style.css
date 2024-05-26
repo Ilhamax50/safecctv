@@ -36,6 +36,12 @@ h6,
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     transition: .5s;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
 }
 
 .btn-primary,
@@ -316,4 +322,41 @@ body {
 }
 .text.show-more .dots {
     display: none;
+}
+
+
+.btn-success {
+    background-color: #25D366; /* Warna khas WhatsApp */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    background: white;
+    color: black;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.dropdown-item img {
+    width: 100%; /* Sesuaikan lebar gambar sesuai kebutuhan */
+    height: auto;
+}
+
+.bg-primary {
+    background-color: transparent; /* Menghapus background */
+}
+
+.team-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold */
+    color: rgb(12, 12, 245);
+    text-align: center; /* Tengah jika diperlukan */
+    margin-top: 10px; /* Jarak dari gambar */
 }
