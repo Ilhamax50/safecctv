@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
     --primary: #2878EB;
-    --secondary: #20c997;
+    --secondary: #F14D5D;
     --light: #ECF4FF;
     --dark: #120F2D;
 }
@@ -36,12 +36,6 @@ h6,
     font-family: 'Jost', sans-serif;
     font-weight: 600;
     transition: .5s;
-    padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
 }
 
 .btn-primary,
@@ -84,23 +78,12 @@ h6,
     text-align: center;
 }
 
-.whats-app {
+.back-to-top {
     position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
-    left: 15px;
-}
-
-.my-float {
-    margin-top: 16px;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -159,7 +142,7 @@ h6,
     left: 0;
     right: 0;
     bottom: 0;
-    background:
+    background: rgba(18, 15, 45, .5);
     z-index: 1;
 }
 
@@ -298,65 +281,21 @@ h6,
     border-color: transparent #D34351 #D34351 transparent;
     z-index: -1;
 }
-body {
-    
-   
-}
-.text {
-    font-size: 16px;
-}
-.moreText {
-    display: none;
-}
-.read-more-btn {
-    padding: 15px 60px;
-    background-color: rgb(7, 172, 248);
-    color: rgb(42, 5, 252);
-    border: none;
-    outline: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-.text.show-more .moreText {
-    display: inline;
-}
-.text.show-more .dots {
-    display: none;
+.paket-title {
+    font-size: 17px; /* Mengatur ukuran font menjadi lebih kecil */
+    color: blue; /* Mengubah warna font menjadi biru */
 }
 
+.text-center {
+    text-align: center;
+}
 
-.btn-success {
-    background-color: #25D366; /* Warna khas WhatsApp */
-    color: white;
-    padding: 10px 20px;
+.ezviz-all-packages {
+    color: blue;
     text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    display: inline-block;
+    font-weight: bold;
 }
 
-.dropdown-menu {
-    background: white;
-    color: black;
-}
-
-.dropdown-item {
-    color: black;
-}
-
-.dropdown-item img {
-    width: 100%; /* Sesuaikan lebar gambar sesuai kebutuhan */
-    height: auto;
-}
-
-.bg-primary {
-    background-color: transparent; /* Menghapus background */
-}
-
-.team-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700; /* Bold */
-    color: rgb(12, 12, 245);
-    text-align: center; /* Tengah jika diperlukan */
-    margin-top: 10px; /* Jarak dari gambar */
+.ezviz-all-packages:hover {
+    text-decoration: underline;
 }
